@@ -49,3 +49,4 @@ class TestUsers(TransactionCase):
             'hobby': minecraft.id
         })
         self.assertEqual(user.hobby.name, 'Minecraft')
+        
